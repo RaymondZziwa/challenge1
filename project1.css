@@ -1,10 +1,40 @@
 body{
-    background-color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
+    margin: 0px;
+    padding: 0px;
 }
 .{
     margin: 0px;
     padding: 0px;
     
+}
+@media(min-width: 600px){
+p{
+    font-size: 20px;
+}
+}
+.wrapper{
+  display: flex;
+}
+.sidebar{
+    flex: 1;
+    background-color:white;
+    float: left;
+    position: fixed;
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 10px;
+    border-bottom-color: black;
+    width: 15px;
+    font-size: 15px;
+}
+
+.main-content{
+    flex: 3;
+    height:650px;
+    background-color: white;
+    float: right;
+    right: 0px;
+    width: 1050px;
 }
