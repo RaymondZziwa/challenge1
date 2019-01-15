@@ -1,0 +1,81 @@
+.box{
+    background:grey;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row-reverse;
+    /*padding: 5vh;
+    margin: 2vh;*/
+}
+#log_in{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap:initial;
+    flex-basis: 10vh;
+    /*padding: 5vh;
+    margin: 2vh;*/
+}
+#sign_up{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+    flex-basis: 10vh;
+   /* padding:5vh;
+    margin: 2vh;*/
+}
+.box2{
+    background: white;
+    width: 40vh;
+    height: 600vh;
+    float: left;
+}
+.box3{
+    background:white;
+    height: 600vh;
+    width: 200vh;
+    float: right;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+#sidenav{
+    border-bottom: 2vh;
+    border-bottom-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    padding-bottom: 10vh;
+    padding-left: 0vh;
+    text-decoration-color: black;
+    
+}
+ul{
+    list-style-type: none;
+    padding-left: 0vh;
+    padding-bottom: 1px;
+    height: 30vh;
+    /*border-spacing: 1px;*/
+    /*border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;*/
+    display: block;
+    width: 200vh;
+    scroll-behavior: auto;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    /*padding: 8vh 0vh 8vh 16vh;*/
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    padding-bottom: 3vh;
+}
+/* change link color on hover*/
+a:hover{
+    color: white;
+    background-color: grey;
+}
+.main-content{
+    width: 100%;
+    font-size: 20px;
+}
