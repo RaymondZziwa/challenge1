@@ -6,6 +6,7 @@
     flex-direction: row-reverse;
     /*padding: 5vh;
     margin: 2vh;*/
+    flex-wrap: wrap;
 }
 #log_in{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,4 +79,18 @@ a:hover{
 .main-content{
     width: 100%;
     font-size: 20px;
+}
+#title1{
+    text-orientation: upright;
+    float: left;
+   /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;*/
+    position: relative;
+    left: -110vh;
+    color: white;
+    /*text-emphasis: wrap;*/
+    /*word-wrap: wrap break-word;*/
+    width: 33vh;
+    /*font-size: 20px;*/
 }
